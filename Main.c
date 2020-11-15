@@ -23,4 +23,6 @@ double x = 0;
     temp2=mul(x,2);
     temp3=sub(temp1,temp2);
     printf("The value of f(x)=((4*x^3)/5)-2x at the point %.4lf is %.4lf\n", x, temp3);
+    temp3= Power(x,-3);
+    printf("The value of f(x)=x^-3 at the point %.4lf is %.4lf\n", x, temp3);
 }
